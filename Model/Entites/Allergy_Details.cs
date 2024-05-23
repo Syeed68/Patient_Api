@@ -7,6 +7,6 @@ namespace PatientManagementSystem.Model.Entites
         [Key]
         public int Id { get; set; }
         public int PatientId { get; set; }
-        public int AllergyCId { get; set; }
+        public int AllergyId { get; set; }
     }
 }

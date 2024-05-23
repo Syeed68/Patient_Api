@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "G:\\New folder (3)\\Patient\\PatientManagementSystem\\PatientManagementSystem.csproj": {}
+    "G:\\New folder (3)\\Patient\\Patient_Api\\PatientManagementSystem.csproj": {}
   },
   "projects": {
-    "G:\\New folder (3)\\Patient\\PatientManagementSystem\\PatientManagementSystem.csproj": {
+    "G:\\New folder (3)\\Patient\\Patient_Api\\PatientManagementSystem.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\New folder (3)\\Patient\\PatientManagementSystem\\PatientManagementSystem.csproj",
+        "projectUniqueName": "G:\\New folder (3)\\Patient\\Patient_Api\\PatientManagementSystem.csproj",
         "projectName": "PatientManagementSystem",
-        "projectPath": "G:\\New folder (3)\\Patient\\PatientManagementSystem\\PatientManagementSystem.csproj",
+        "projectPath": "G:\\New folder (3)\\Patient\\Patient_Api\\PatientManagementSystem.csproj",
         "packagesPath": "C:\\Users\\Syeed\\.nuget\\packages\\",
-        "outputPath": "G:\\New folder (3)\\Patient\\PatientManagementSystem\\obj\\",
+        "outputPath": "G:\\New folder (3)\\Patient\\Patient_Api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Syeed\\AppData\\Roaming\\NuGet\\NuGet.Config",

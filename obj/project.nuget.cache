@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ESvd43BvaovIWd0sB6WKcIzMUHMBOsQm1eq3u5IvUF8W+xl7fxO3d4lPj/7mCDlF2Xl5/NEfKmpNSI0OHnzYVg==",
+  "dgSpecHash": "p+JB/6GGvgE+ECTIeRVA2pZx6r6diPEPHDzN6HlXbVh7fSajIOeVAklGVhxaKJeTeBrDMGd39pDR0LR5/Xxa6A==",
   "success": true,
-  "projectFilePath": "G:\\New folder (3)\\Patient\\PatientManagementSystem\\PatientManagementSystem.csproj",
+  "projectFilePath": "G:\\New folder (3)\\Patient\\Patient_Api\\PatientManagementSystem.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Syeed\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Syeed\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

@@ -51,7 +51,7 @@ namespace PatientManagementSystem.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<int>("AllergyCId")
+                    b.Property<int>("AllergyId")
                         .HasColumnType("int");
 
                     b.Property<int>("PatientId")

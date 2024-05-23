@@ -24,9 +24,26 @@ namespace PatientManagementSystem.Model.Repositories
                     {
                         Name = Vm.Name,
                         DiseaseId = Vm.DiseaseId,
-                        //Epilepsy = (int)Vm.Epilepsy
+                        Epilepsy = Vm.Epilepsies
                     };
                     await _db.PatientInformation.AddAsync(Patient);
+                    await _db.SaveChangesAsync();
+                    foreach (var i in Vm.NCD_Details)
+                    {
+                        NCD_Details NCD_Details = new NCD_Details();
+                        NCD_Details.NDCId = i.NDCId;
+                        NCD_Details.PatientId = Patient.Id;
+                        await _db.NCD_Details.AddAsync(NCD_Details);
+                    }
+
+                    foreach(var i in Vm.Allergy_Details)
+                    {
+                        Allergy_Details Allergy = new Allergy_Details();
+                        Allergy.AllergyId = i.AllergyId;
+                        Allergy.PatientId = Patient.Id;
+                        await _db.Allergy_Details.AddAsync(Allergy);
+                    }
+
                     await _db.SaveChangesAsync();
                     response.Type = "Success";
                     response.Message = "Created Successfully";
@@ -35,7 +52,7 @@ namespace PatientManagementSystem.Model.Repositories
                 catch (Exception ex)
                 {
                     transaction.Dispose();
-                    response.Type = "Success";
+                    response.Type = "Error";
                     response.Message = ex.Message;
                     throw;
                 }
